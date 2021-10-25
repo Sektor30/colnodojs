@@ -1,0 +1,26 @@
+[
+    {
+      "precio": 28500,
+      "id": 1,
+      "title": "Hamburgesa",
+      "thumbnailUrl": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?cs=srgb&dl=pexels-horizon-content-3738730.jpg&fm=jpg"
+    },
+    {
+      "precio": 40000,
+      "id": 2,
+      "title": "Pizza",
+      "thumbnailUrl": "https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "precio": 25000,
+      "id": 3,
+      "title": "Sushi",
+      "thumbnailUrl": "https://images.pexels.com/photos/3535392/pexels-photo-3535392.jpeg?cs=srgb&dl=pexels-kasumi-loffler-3535392.jpg&fm=jpg"
+    },
+    {
+      "precio": 23000,
+      "id": 4,
+      "title": "Tacos",
+      "thumbnailUrl": "https://images.pexels.com/photos/8448325/pexels-photo-8448325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+]

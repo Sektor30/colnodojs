@@ -1,0 +1,567 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    height: 50px;
+    background-color: #E91E1E;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Rockwell Condensed';
+    font-size: 36px;
+    border: none;
+    box-shadow: 2px 2px 4px #000000;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 0px #000000;
+    transform: translateY(2px);
+}
+
+/* NAVBAR START */
+
+.navbar {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-family: 'Rockwell Condensed';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.navbar-brand span {
+    color: #E91E1E;
+}
+
+.navbar-brand:hover {
+    color: #000000;
+}
+
+.nav-link {
+    border-bottom: 2px solid #fff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transition: all ease-in 0.3s;
+}
+
+.nav-link:hover {
+    color: #000000;
+    border-bottom: 2px solid #E91E1E;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+    font-size: 1.8rem;
+    width: 160px;
+    transition: all ease-in 0.3s;
+}
+
+.icons li:hover {
+    color: #E91E1E;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000000;
+}
+
+
+/* NAVBAR END */
+
+/* BANNER START */
+
+.banner-po {
+    margin: 70px 0 0 0;
+    z-index: 1;
+}
+
+.carousel-inner {
+    height: 600px;
+    position: relative;
+}
+
+.carousel-item img {
+    height: 700px;
+}
+
+.banner {
+    font-family: 'Rockwell Condensed';
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    width: 400px;
+}
+
+.banner h1 {
+    font-size: 80px;
+}
+
+.banner h1 span {
+    color: #E91E1E;
+}
+
+.banner h5 {
+    font-size: 24px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.descuento {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+
+.descuento img {
+    height: 300px;
+    width: 300px;
+}
+
+.descuento button {
+    margin-top: 20px;
+}
+
+/* BANNER END */
+
+/* INFO-RESTAURANTE BOOTSTRAP START */
+.info-restaurante {
+    border-bottom: 1px solid #000000;
+}
+
+.info-restaurante h1 {
+    font-family: 'Rockwell Condensed';
+    font-size: 96px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.info-restaurante h1 span {
+    color: #E91E1E;
+}
+
+.info-restaurante h5 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* INFO-RESTAURANTE BOOTSTRAP END */
+
+/* COMIDAS START */
+.comidas {
+    margin-bottom: 40px;
+}
+
+.comidas h1 {
+    font-family: 'Rockwell Condensed';
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.comidas h1 span {
+    color: #E91E1E;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 40px;
+}
+
+.card .btn {
+    margin-bottom: 20px;
+    width: 230px;
+}
+
+.img-fluid {
+    height: 182px;
+}
+
+.comidas a.btn {
+    margin-top: 20px;
+    height: 60px;
+    width: 250px;
+}
+
+/* COMIDAS END */
+
+/* EVENTOS START  */
+.eventos {
+    display: flex;
+    justify-content: center;
+
+    background-color: #D0D0D0;
+    padding: 30px 80px;
+    width: 100%;
+}
+
+.eventos-text {
+    text-align: left;
+    flex: 1;
+}
+
+.eventos-text h1 {
+    font-family: 'Rockwell Condensed';
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.eventos-text h1 span {
+    color: #E91E1E;
+}
+
+.eventos-text p {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.eventos-text a {
+    text-decoration: none;
+    font-family: 'Rockwell Condensed';
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 30px;
+    transition: all ease 0.3s;
+}
+
+.eventos-text a:hover {
+    border-bottom: 4px solid #e91e1eb0;
+}
+
+.eventos-img {
+    flex: 1;
+}
+
+/* EVENTOS END */
+
+/* RESEÑAS START  */
+.card {
+    background-color: #DCDCDC;
+    border-radius: 50px;
+    height: fit-content;
+    padding: 20px;
+}
+
+.reseñas {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.reseñas h1 {
+    font-family: 'Rockwell Condensed';
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.reseñas h1 span {
+    color: #E91E1E;
+}
+
+.reseñas .card-body img {
+    position: absolute;
+    top: -40%;
+    left: 25%;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.reseñas p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.reseñas a {
+    text-decoration: none;
+    font-family: 'Rockwell Condensed';
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 30px;
+    transition: all ease 0.3s;
+}
+
+.reseñas a:hover {
+    border-bottom: 4px solid #e91e1eb0;
+}
+/* RESEÑAS END */
+
+/* FOOTER START  */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3D3E40;
+    padding-top: 80px;
+}
+
+footer h1 {
+    font-family: 'Rockwell Condensed';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+footer h1 span {
+    color: #E91E1E;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #E91E1E; 
+}
+
+footer ul a {
+    color: #fff !important;
+}
+
+footer ul a:hover {
+    color: #E91E1E !important;
+}
+/* FOOTER END */
+
+/* RATING START  */
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reseñas .stars a {
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.reseñas .stars a:hover {
+    border-bottom: none;
+}
+/* RATING END */
+
+/* Reservas page */
+.reservas {
+    margin-top: 90px;
+}
+
+.reservas h1 {
+    font-family: 'Rockwell Condensed';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.reservas h1 span {
+    color: #E91E1E;
+}
+
+.reservas form {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.reservas form input, textarea {
+    margin-bottom: 20px;
+    width: 50%;
+    outline-color: #E91E1E;
+}
+
+
+
+
+
+/* Reservas page END */
+
+/*Contacto*/
+.contact{
+    padding-bottom: 500px;
+}
+.contenedor_movil{
+    background: white;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    padding: 0 2.25rem;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5.875rem;
+
+}
+
+.container{
+    padding: 2%;
+    z-index: 2;
+    justify-content:space-between;
+}
+
+.contacto{
+    padding: 20%;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
+
+
+.blurb{
+    background: white;
+    padding: 2%;
+    box-shadow: 0px 0px 18px -1px rgba(233,30,30,0.75);
+    text-align: center;
+    width: 250px;
+    height: 150px;
+
+}
+
+.blurb h3 span {
+    color: #E91E1E;
+}
+
+.blurb h3{
+    font-family: 'Rockwell Condensed';
+    font-size: 30px;
+    color: black;
+    line-height: 2.6875rem;
+    margin-bottom: 1.125rem;
+    border-bottom: 2px solid #E91E1E;
+}
+
+.blurb p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.formulario{
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    max-width: 40.625rem;
+    margin: 0 auto;
+    padding: 2.25rem;
+    width: 90%;
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -1px rgba(233,30,30,0.75);
+}
+
+.input-group{
+    position: relative;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.datos{
+    border-color: transparent;
+    font-size: 1rem;
+    width: 100%;
+    border-bottom-color: #E91E1E;
+    color: #E91E1E;
+    height: 20px;
+    padding: 4% 0%;
+}
+
+textarea{
+    padding: 4% 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #E91E1E;
+    width: 100%;
+    outline: none;
+    padding: 0.9375rem 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #E91E1E;
+    vertical-align: top;
+    max-width: 100%;
+    max-height: 10.25rem;
+    min-height: 5.125rem;
+    min-width: 100%;
+}
+
+input[type="submit"]{
+    background: #E91E1E;
+    font-family: 'Rockwell Condensed';
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3.125rem;
+    padding: 0.9375rem;
+    width: 20%;
+    outline: none;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border: none;
+    box-shadow: 2px 2px 4px #000000;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#elegir_servicio{
+    border-radius: 10px;
+    background-color: #E91E1E;
+    width: 30%;
+    height: 35px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.contact{
+    padding-bottom: 500px;
+}

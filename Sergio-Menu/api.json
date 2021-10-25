@@ -1,0 +1,140 @@
+[
+  {
+    "precio": 28500,
+    "id": 1,
+    "title": "Hamburgesa",
+    "thumbnailUrl": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?cs=srgb&dl=pexels-horizon-content-3738730.jpg&fm=jpg"
+  },
+  {
+    "precio": 40000,
+    "id": 2,
+    "title": "Pizza",
+    "thumbnailUrl": "https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "precio": 25000,
+    "id": 3,
+    "title": "Sushi",
+    "thumbnailUrl": "https://images.pexels.com/photos/3535392/pexels-photo-3535392.jpeg?cs=srgb&dl=pexels-kasumi-loffler-3535392.jpg&fm=jpg"
+  },
+  {
+    "precio": 23000,
+    "id": 4,
+    "title": "Tacos",
+    "thumbnailUrl": "https://images.pexels.com/photos/8448325/pexels-photo-8448325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+      "precio": 28500,
+      "id": 5,
+      "title": "Combo Papas fritas",
+      "thumbnailUrl": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 40000,
+  "id": 6,
+  "title": "HotDog",
+  "thumbnailUrl": "https://images.pexels.com/photos/1603898/pexels-photo-1603898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 25000,
+  "id": 7,
+  "title": "Lasagna",
+  "thumbnailUrl": "https://images.pexels.com/photos/2765875/pexels-photo-2765875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 23000,
+  "id": 8,
+  "title": "Spaghetti",
+  "thumbnailUrl": "https://images.pexels.com/photos/7473191/pexels-photo-7473191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 40000,
+  "id": 9,
+  "title": "Sandwich",
+  "thumbnailUrl": "https://images.pexels.com/photos/2161636/pexels-photo-2161636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 25000,
+  "id": 10,
+  "title": "Jugo Natural",
+  "thumbnailUrl": "https://images.pexels.com/photos/96620/pexels-photo-96620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 23000,
+  "id": 11,
+  "title": "Jugo en Leche",
+  "thumbnailUrl": "https://images.pexels.com/photos/845552/pexels-photo-845552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 40000,
+  "id": 12,
+  "title": "Cervezas",
+  "thumbnailUrl": "https://images.pexels.com/photos/667986/pexels-photo-667986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 25000,
+  "id": 13,
+  "title": "Café",
+  "thumbnailUrl": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+  "precio": 23000,
+  "id": 14,
+  "title": "Té verde",
+  "thumbnailUrl": "https://images.pexels.com/photos/4552171/pexels-photo-4552171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 40000,
+  "id": 15,
+  "title": "Té oriental",
+  "thumbnailUrl": "https://images.pexels.com/photos/7393906/pexels-photo-7393906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 25000,
+  "id": 16,
+  "title": "Galletas",
+  "thumbnailUrl": "https://images.pexels.com/photos/7440175/pexels-photo-7440175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 23000,
+  "id": 17,
+  "title": "Muffin`s y CupCakes",
+  "thumbnailUrl": "https://images.pexels.com/photos/3776529/pexels-photo-3776529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 40000,
+  "id": 18,
+  "title": "Postres y tortas",
+  "thumbnailUrl": "https://images.pexels.com/photos/3740237/pexels-photo-3740237.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 25000,
+  "id": 19,
+  "title": "Donnouts",
+  "thumbnailUrl": "https://images.pexels.com/photos/680242/pexels-photo-680242.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 23000,
+  "id": 20,
+  "title": "Creppes con fruta",
+  "thumbnailUrl": "https://images.pexels.com/photos/3225499/pexels-photo-3225499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 40000,
+  "id": 21,
+  "title": "Creppes con chocolate",
+  "thumbnailUrl": "https://images.pexels.com/photos/4238556/pexels-photo-4238556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 25000,
+  "id": 22,
+  "title": "Ensaladas de frutas",
+  "thumbnailUrl": "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+  "precio": 23000,
+  "id": 23,
+  "title": "Frutas",
+  "thumbnailUrl": "https://images.pexels.com/photos/314780/pexels-photo-314780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  }
+]

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperación de contraseña</title>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- navbar section start -->
+
+    <header class="header">
+
+        <a class="logo" href="./homeScreen.html"><span>FOOD</span>LOGO</a>
+
+        <nav class="navbar fondo">
+            <a href="../Bryan/nosotros.html">nosotros</a>
+            <a href="../Sergio-Menu/menu.html">menú</a>
+            <a href="../Bryan/servicios.html">servicios</a>
+            <a href="../Bryan/contacto.html">contáctanos</a>
+            <div class="cover-ctn-search"></div>
+        </nav>
+
+        <div class="icons">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-hamburger" id="menu-btn"></div>
+
+        </div>
+
+        <div class="search-form fondo">
+            <form action="" class="search" autocomplete="off">
+                <input type="text" id="search-box" placeholder="Busque aquí...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <ul id="box-search">
+                <li><a href="../Sergio-Menu/menu.html"><i class="fas fa-search"></i>Menú</a></li>
+                <li><a href="./reservas.html"><i class="fas fa-search"></i>Reserva</a></li>
+                <li><a href="../Bryan/mapa.html"><i class="fas fa-search"></i>Mapa del sitio</a></li>
+                <li><a href="../Bryan/servicios.html"><i class="fas fa-search"></i>Servicios</a></li>
+                <li><a href="./crear-cuenta.html"><i class="fas fa-search"></i>Cuenta</a></li>
+                <li><a href="../Bryan/nosotros.html"><i class="fas fa-search"></i>Nosotros</a></li>
+                <li><a href="../Bryan/contacto.html"><i class="fas fa-search"></i>Contáctos</a></li>
+                <li><a href="#footer"><i class="fas fa-search"></i>Redes sociales</a></li>
+                <li><a href="#review"><i class="fas fa-search"></i>Reseñas</a></li>
+                <li><a href="../Sergio-Menu/menu.html"><i class="fas fa-search"></i>Comidas</a></li>
+                <li><a href="../Sergio-Menu/menu.html"><i class="fas fa-search"></i>Pizza</a></li>
+                <li><a href="../Sergio-Menu/menu.html"><i class="fas fa-search"></i>Hamburguesa</a></li>
+                <li><a href="../Sergio-Menu/menu.html"><i class="fas fa-search"></i>Sushi</a></li>
+            </ul>
+
+            <div class="cover-ctn-search"></div>
+            
+        </div>
+
+        <div class="shopping-cart fondo">
+            
+            <div id="pedido-container">
+                <!-- <div class="box-pedido">
+                    <i class="fas fa-trash"></i>
+                    <img src="https://fondosmil.com/fondo/32016.jpg" alt="">
+                    <div class="content">
+                        <h3>title</h3>
+                        <span class="price">0.00/-</span>
+                        <span class="quantity">ctd : 0</span>
+                    </div>
+                </div> -->
+            </div>
+
+            <div id="compra">
+                <div class="total" id="cantidad">
+                    Ctd total: 0
+                </div>
+                
+                <div class="total" id="total">
+                    Total: $0/-
+                </div>
+            </div>
+
+            <div class="cover-ctn-search"></div>
+
+            <form action="https://formspree.io/f/mqkwjzza" method="POST">
+                <div class="box-form" id="box-form">
+                    <input type="text" name="comida" value="">
+                    <input type="text" name="cantidad" value="">
+                    <input type="text" name="precio" value="">
+                </div>
+                <button class="btn">PAGAR AHORA</button>
+            </form>
+
+
+        </div>
+
+        <form action="" class="login-form fondo" autocomplete="off">
+            <h3>ingresar ahora</h3>
+            <input type="email" placeholder="ingrese su correo" class="box">
+            <input type="password" placeholder="ingrese su contraseña" class="box">
+            <p>olvidaste tu contraseña? <a href="./recuperar-contraseña.html">recuperar</a></p>
+            <p>crear cuenta <a href="./crear-cuenta.html">crear ahora</a></p>
+            <input type="submit" value="ingresar ahora" class="btn">
+
+            <div class="cover-ctn-search"></div>
+
+        </form>
+
+    </header>
+    
+    <!-- navbar section end -->
+
+    <!-- RECUPERACIÓN -->
+    <section class="recuperacion">
+        <h1><span>Rec</span>uperar contraseña</h1>
+
+        <form action="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, beatae.</p>
+            <input type="email" placeholder="Ingrese su correo..." required>
+            <input class="btn" type="submit" value="ENVIAR">
+        </form>
+
+    </section>
+    <!-- RECUPERACIÓN -->
+
+    <!-- Footer start -->
+
+    <footer>
+        <div class="box-container">
+
+            <div class="box">
+                <h1><span>FOOD</span>LOGO</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, sint.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1><span>CON</span>TACTO</h1>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+57 1112223333</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>+57111-222-3333</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>FOODLOGO@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Nowhere, Colombia</a>
+            </div>
+
+            <div class="box">
+                <h1><span>INF</span>ORMACIÓN</h1>
+                <a href="./homeScreen.html" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="../Bryan/mapa.html" class="links"><i class="fas fa-arrow-right"></i>MAPA DEL SITIO</a>
+                <a href="./reservas.html" class="links"><i class="fas fa-arrow-right"></i>RESERVAS</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer end -->
+
+    <!-- custom js file -->
+    <script src="./script.js"></script>
+
+</body>
+</html>
